@@ -4,7 +4,7 @@ namespace Tkotosz\BlockDecorator\Block\Product\View;
 
 use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\Framework\View\Element\Template;
-use Tkotosz\BlockDecorator\View\Element\Block\ProductNameAwareInterface;
+use Tkotosz\BlockDecorator\View\Element\Block\CurrentProduct\ProductNameAwareInterface;
 
 class ProductName extends Template implements ProductNameAwareInterface
 {
